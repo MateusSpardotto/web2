@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Média de Notas</title>
+</head>
+<body>
+    <h2>Calculadora de Média de Notas</h2>
+    <form id="formulario-notas">
+        <label for="nota1">Nota 1:</label>
+        <input type="number" id="nota1" min="0" max="10" step="0.1" required><br><br>
+
+        <label for="nota2">Nota 2:</label>
+        <input type="number" id="nota2" min="0" max="10" step="0.1" required><br><br>
+
+        <label for="nota3">Nota 3:</label>
+        <input type="number" id="nota3" min="0" max="10" step="0.1" required><br><br>
+
+        <label for="nota4">Nota 4:</label>
+        <input type="number" id="nota4" min="0" max="10" step="0.1" required><br><br>
+    </form>
+
+    <p>Média das notas: <span id="media">0.0</span></p>
+
+    <script>
+        // Seleciona todos os campos de entrada
+        const camposDeNota = document.querySelectorAll('#formulario-notas input');
+        const mediaDisplay = document.getElementById('media');
+
+        // Função para calcular a média das notas
+        function calcularMedia() {
+            let soma = 0;
+            let total = 0;
+
+            camposDeNota.forEach(campo => {
+                const valor = parseFloat(campo.value);
+                if (!isNaN(valor)) { // verifica se o campo tem um número válido
+                    soma += valor;
+                    total++;
+                }
+            });
+
+            const media = total ? (soma / total).toFixed(1) : 0;
+            mediaDisplay.textContent = media;
+        }
+
+        // Adiciona o evento 'input' para recalcular a média ao digitar ou alterar qualquer campo
+        camposDeNota.forEach(campo => campo.addEventListener('input', calcularMedia));
+    </script>
+</body>
+</html>

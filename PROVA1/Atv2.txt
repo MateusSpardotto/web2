@@ -1,0 +1,23 @@
+2) JS é considerada uma linguagem "client-side" e é bastante utilizada para front-end de aplicações WEB; como ela pode ser utilizada em conjunto com as linguagens HTML, CSS e PHP para adicionar dinamicidade a essas aplicações? Cite dois exemplos relevantes de sites que implementem essa integração e indique em quais funcionalidades delas o JavaScript é aplicado.
+
+Resposta:
+
+    HTML fornece a estrutura da página, CSS define o estilo e a apresentação, enquanto JavaScript adiciona a lógica e a interatividade.
+    Além disso, o JavaScript pode se integrar com PHP (uma linguagem de back-end) para acessar dados dinâmicos do servidor, sendo bastante útil em aplicações que precisam de atualizações em tempo real ou dados do servidor sem precisar recarregar a página.
+
+Exemplos relevantes de sites:
+
+1. Facebook
+
+ -   Funcionalidade de notificações em tempo real: O JavaScript trabalha com chamadas AJAX para receber atualizações do servidor (usando PHP no back-end) e exibir novas notificações ou mensagens sem recarregar a página.
+ 
+ -   Interação com postagens e comentários: A lógica de abrir, curtir e comentar nas postagens é toda manipulada com JavaScript, que permite atualizar o conteúdo da página dinamicamente.
+
+2. YouTube
+
+ -  Carregamento dinâmico de vídeos e sugestões: JavaScript carrega novos vídeos e recomendações à medida que o usuário rola a página, por meio de técnicas como “infinite scroll” usando AJAX para buscar dados do servidor.
+ 
+ -  Controle de reprodução do vídeo: O player de vídeo do YouTube, feito em JavaScript, oferece controles de reprodução, ajustes de velocidade, volume e qualidade. 
+    Esses elementos reagem instantaneamente às interações do usuário, sem precisar de um novo carregamento da página.
+
+Esses exemplos mostram como JavaScript, em conjunto com HTML, CSS e PHP, cria aplicações mais fluidas e interativas, proporcionando uma experiência melhor para o usuário.

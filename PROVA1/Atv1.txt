@@ -1,0 +1,16 @@
+1) JavaScript é uma linguagem "fracamente tipada". Explique o que isso significa e cite um exemplo de situação onde a tipagem fraca é vantajosa e um exemplo onde ela pode ser problemática.
+
+Resposta:
+
+
+JavaScript é considerada uma linguagem "fracamente tipada" porque permite que as variáveis possam armazenar qualquer tipo de dado, e o tipo de uma variável pode mudar dinamicamente durante a execução do código.
+Isso significa que você pode declarar uma variável sem especificar seu tipo e, ao longo do programa, mudar o valor para um tipo diferente (por exemplo, de um número para uma string).
+
+Pontos positivos:
+ -  A tipagem fraca é vantajosa quando se quer mais flexibilidade no código, pois permite fazer operações com diferentes tipos de dados sem precisar ajustá-los antes.
+    Um exemplo disso é a facilidade para criar funções que aceitam dados variados, sem a necessidade de especificar o tipo de cada dado. Isso torna o código mais curto e fácil de escrever, especialmente ao lidar com dados de uma API que podem ter tipos diferentes.
+
+
+Pontos negativos:
+ -  A tipagem fraca também pode ser problemática, principalmente porque pode levar a erros difíceis de detectar. Como os tipos das variáveis podem ser alterados, operações inesperadas podem ocorrer sem que o programador perceba.
+    Por exemplo, a linguagem pode tentar realizar uma operação matemática entre tipos incompatíveis, resultando em comportamentos inesperados.
