@@ -1,0 +1,24 @@
+Olá professor, algums informações sobre a prova.
+
+Não fiz a prova em grupo, só eu desenvolvi. Mateus Spardotto, vou enviar o zip do arquivo e o link do git, pode usar o que for melhor.
+
+Ustilizei a instancia do SQL do XAMPP como base, então depois de rodar o XAMPP precisa criar a tabela lá.
+
+Acredito que tenha uma erro no enunciado da prova na seguinte parte
+
+    3 pts - Crie um sistema em PHP + MySQL de registro de moradores de um prédio, onde 
+    cada usuário pode se cadastrar através de um formulário com os seguintes campos (todos 
+    os campos são obrigatórios):
+    Nome completo
+    Idade
+    Cpf
+    Número do apartamento
+    Uma senha de 4 dígitos
+
+    E logo abaixo em outra regra
+
+    Garantir que a senha tem exatamente 6 dígitos numéricos...
+
+Como essses infoemações não bateram, mantive o 4 como numeros maximos de digitos.
+
+
